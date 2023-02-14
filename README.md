@@ -1,2 +1,2 @@
-# ired-lulasia
+# lulasia
 lulasia deployment
