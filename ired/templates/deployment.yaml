@@ -49,13 +49,11 @@ spec:
           - name: {{ .Values.nodered_mount.name }}
             mountPath: {{ .Values.nodered_mount.path }}
             subPath: {{ .Values.nodered_mount.subpath }}
-            
-           
           ports:
             - name: {{ .Values.image.portname }}
               containerPort: {{ .Values.image.port }}
               protocol: TCP
-          
+
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       volumes:
