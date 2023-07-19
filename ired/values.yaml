@@ -62,8 +62,8 @@ nodered_mount:
    subpath: ""
 
 nodeflow_storage:
-  pvname: ired-lulasia-pv
-  pvcname: ired-lulasia-pvc
+  pvname: nfs-lulasia-ired
+  pvcname: nfs-lulasia-ired
   size: 10Gi
   mountpath: /mnt/nfsdisk/ired-lulasia
   nfsserver: nfs-external-apps.asia-south1-a.c.iplon-india.internal
